@@ -10,8 +10,8 @@
     <div class="container">
         <div class="search-box">
             <i class="fa-solid fa-location-dot"></i>
-            <input type="text" placeholder="Enter your location bro">
-            <button class="fa-solid fa-magnifying-glass"></button>
+            <input type="text" placeholder="Enter your location bro" id="input">
+            <button class="fa-solid fa-magnifying-glass"  id="search"></button>
         </div>
 
         <div class="not-found">
@@ -29,7 +29,7 @@
             <div class="humidity">
                 <i class="fa-solid fa-water"></i>
                 <div class="text">
-                    <span></span>
+                    <span id="humidity"></span>
                     <p>Humidity</p>
                 </div>
             </div>
@@ -37,7 +37,7 @@
             <div class="wind">
                 <i class="fa-solid fa-wind"></i>
                 <div class="text">
-                    <span></span>
+                    <span id="wind"></span>
                     <p>Wind Speed</p>
                 </div>
             </div>
@@ -46,6 +46,7 @@
 
 
     <script src="https://kit.fontawesome.com/a27a0b0318.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script type="module" src="./scripts/script.js"></script>
+    
 </body>
 </html>
