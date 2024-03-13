@@ -7,7 +7,7 @@ search.addEventListener('click', () => {
     const city = input.value
     if (city === '') return
     
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&appid=f2cc519d51fe5cd6022f0c3916b980f7`).then((response) => response.json()).then(json => {
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=ru&appid=f2cc519d51fe5cd6022f0c3916b980f7`).then((response) => response.json()).then(json => {
         
         if (json.cod === "404") {
             container.style.height = '400px'

@@ -3,7 +3,7 @@ export default {
     search: document.getElementById('search'),
     input: document.getElementById('input'),
     input: document.getElementById('input'),
-    error404: document.querySelector('.not-found img'),
+    error404: document.querySelector('.not-found'),
     weatherBox: document.querySelector('.weather-box'),
     weatherDetails: document.querySelector('.weather-details'),
 
